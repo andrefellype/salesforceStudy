@@ -1,0 +1,102 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ProjectRepository",
+      "apexClassOrTriggerId": "01p5Y00000HXemRQAT",
+      "apexTestClassId": "01p5Y00000HXewvQAD",
+      "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 9,
+      "percentage": "25%",
+      "coverage": {
+        "coveredLines": [
+          7,
+          9,
+          10
+        ],
+        "uncoveredLines": [
+          15,
+          16,
+          17,
+          21,
+          22,
+          23,
+          27,
+          28,
+          29
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "ProjectController",
+      "apexClassOrTriggerId": "01p5Y00000HXemCQAT",
+      "apexTestClassId": "01p5Y00000HXewvQAD",
+      "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 17,
+      "percentage": "26%",
+      "coverage": {
+        "coveredLines": [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18
+        ],
+        "uncoveredLines": [
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          34,
+          35,
+          38,
+          40,
+          41,
+          51,
+          52,
+          53,
+          57,
+          58
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "ProjectTransformer",
+      "apexClassOrTriggerId": "01p5Y00000HXemMQAT",
+      "apexTestClassId": "01p5Y00000HXewvQAD",
+      "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AgilProject",
+      "apexClassOrTriggerId": "01p5Y00000HXemHQAT",
+      "apexTestClassId": "01p5Y00000HXewvQAD",
+      "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coverage": {
+        "coveredLines": [],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

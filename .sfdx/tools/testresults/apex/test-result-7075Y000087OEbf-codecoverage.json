@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ViaCepAddressResponse",
+      "apexClassOrTriggerId": "01p5Y00000HXeX2QAL",
+      "apexTestClassId": "01p5Y00000HXeiAQAT",
+      "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coverage": {
+        "coveredLines": [],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "ZipCodeAddressTransformer",
+      "apexClassOrTriggerId": "01p5Y00000HXehWQAT",
+      "apexTestClassId": "01p5Y00000HXeiAQAT",
+      "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "GetAddressOubountService",
+      "apexClassOrTriggerId": "01p5Y00000HXeXMQA1",
+      "apexTestClassId": "01p5Y00000HXeiAQAT",
+      "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          8,
+          9,
+          12,
+          13,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          31
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "ZipCodeAddress",
+      "apexClassOrTriggerId": "01p5Y00000HXehHQAT",
+      "apexTestClassId": "01p5Y00000HXeiAQAT",
+      "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          10,
+          11
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

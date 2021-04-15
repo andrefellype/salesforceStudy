@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ProjectController",
+      "apexClassOrTriggerId": "01p5Y00000HXemCQAT",
+      "apexTestClassId": "01p5Y00000HXewvQAD",
+      "apexTestMethodName": "givenInvalidProjectIdWhenCallFindProjectServiceThenReturnError",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 9,
+      "percentage": "61%",
+      "coverage": {
+        "coveredLines": [
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          34,
+          35,
+          51,
+          52,
+          53,
+          57,
+          58
+        ],
+        "uncoveredLines": [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          38,
+          40,
+          41
+        ]
+      }
+    }
+  ]
+]

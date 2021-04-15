@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Apr 14 2021 10:45:19",
+    "testExecutionTimeInMs": 63,
+    "testTotalTimeInMs": 63,
+    "commandTimeInMs": 1032,
+    "hostname": "https://empathetic-narwhal-kuijw2-dev-ed.my.salesforce.com",
+    "orgId": "00D5Y000002V0QhUAK",
+    "username": "andre.fellype@empathetic-narwhal-kuijw2.com",
+    "testRunId": "7075Y000087PSHH",
+    "userId": "0055Y00000GSdRvQAL",
+    "totalLines": 41,
+    "coveredLines": 15,
+    "testRunCoverage": "37%",
+    "orgWideCoverage": "10%"
+  },
+  "tests": [
+    {
+      "id": "07M5Y000006Yw79UAC",
+      "queueItemId": "7095Y0000019uFnQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075Y000087PSHHQA4",
+      "methodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5Y00000HXewvQAD",
+        "name": "ProjectControllerTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectControllerTest"
+      },
+      "runTime": 63,
+      "testTimestamp": "2021-04-14T13:45:19.000+0000",
+      "fullName": "ProjectControllerTest.givenProjectInfoWhenCallServiceThenCreateNewProject",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AgilProject",
+          "apexClassOrTriggerId": "01p5Y00000HXemHQAT",
+          "apexTestClassId": "01p5Y00000HXewvQAD",
+          "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ProjectRepository",
+          "apexClassOrTriggerId": "01p5Y00000HXemRQAT",
+          "apexTestClassId": "01p5Y00000HXewvQAD",
+          "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 9,
+          "percentage": "25%",
+          "coverage": {
+            "coveredLines": [
+              7,
+              9,
+              10
+            ],
+            "uncoveredLines": [
+              15,
+              16,
+              17,
+              21,
+              22,
+              23,
+              27,
+              28,
+              29
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ProjectTransformer",
+          "apexClassOrTriggerId": "01p5Y00000HXemMQAT",
+          "apexTestClassId": "01p5Y00000HXewvQAD",
+          "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              6,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ProjectController",
+          "apexClassOrTriggerId": "01p5Y00000HXemCQAT",
+          "apexTestClassId": "01p5Y00000HXewvQAD",
+          "apexTestMethodName": "givenProjectInfoWhenCallServiceThenCreateNewProject",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 17,
+          "percentage": "26%",
+          "coverage": {
+            "coveredLines": [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18
+            ],
+            "uncoveredLines": [
+              22,
+              24,
+              26,
+              28,
+              30,
+              32,
+              33,
+              34,
+              35,
+              38,
+              40,
+              41,
+              51,
+              52,
+              53,
+              57,
+              58
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p5Y00000HXemCQAT",
+      "name": "ProjectController",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 17,
+      "percentage": "26%",
+      "coveredLines": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ],
+      "uncoveredLines": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        41,
+        51,
+        52,
+        53,
+        57,
+        58
+      ]
+    },
+    {
+      "apexId": "01p5Y00000HXemRQAT",
+      "name": "ProjectRepository",
+      "type": "ApexClass",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 9,
+      "percentage": "25%",
+      "coveredLines": [
+        7,
+        9,
+        10
+      ],
+      "uncoveredLines": [
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "apexId": "01p5Y00000HXemMQAT",
+      "name": "ProjectTransformer",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p5Y00000HXemHQAT",
+      "name": "AgilProject",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    }
+  ]
+}

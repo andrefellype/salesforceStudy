@@ -1,0 +1,37 @@
+<template>
+
+    <div class="slds-grid slds-wrap">
+
+        <div class="slds-col slds-size_2-of-3">
+            <c-search-zip-code zip-code={address.zipCode}
+            onsearchedaddress={handleSearchdAddress} ></c-search-zip-code>
+        </div>
+
+        <div class="slds-col slds-size_3-of-3">
+            <lightning-input value={address.street} label="Endereço" name="address" 
+                data-name="street" onblur={handleChange} type="text" max-length="255"></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_2-of-3">
+            <lightning-input value={address.streetNumber} label="Número" name="streetNumber" 
+                data-name="streetNumber" onblur={handleChange} type="text" max-length="20" required></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-input  value={address.additionalInfo} label="Complemento" name="addressAdditionalInfo" 
+                data-name="additionalInfo" onblur={handleChange} type="text" max-length="255"></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_2-of-3">
+            <lightning-input  value={address.city} label="Cidade" name="city" 
+                data-name="city" onblur={handleChange} type="text" max-length="255"></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-3">
+            <lightning-input  value={address.state} label="Estado" name="state" 
+                data-name="state" onblur={handleChange} type="text" max-length="255"></lightning-input>
+        </div>
+
+    </div>
+
+</template>

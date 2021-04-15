@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 12 2021 22:12:44",
+    "testExecutionTimeInMs": 103,
+    "testTotalTimeInMs": 103,
+    "commandTimeInMs": 984,
+    "hostname": "https://empathetic-narwhal-kuijw2-dev-ed.my.salesforce.com",
+    "orgId": "00D5Y000002V0QhUAK",
+    "username": "andre.fellype@empathetic-narwhal-kuijw2.com",
+    "testRunId": "7075Y000086LlOs",
+    "userId": "0055Y00000GSdRvQAL",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "0%"
+  },
+  "tests": [
+    {
+      "id": "07M5Y000006YuoQUAS",
+      "queueItemId": "7095Y0000019uAOQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075Y000086LlOsQAK",
+      "methodName": "filterAccountByDocumentNumberTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5Y00000HXXp8QAH",
+        "name": "AccountFilterTest",
+        "namespacePrefix": null,
+        "fullName": "AccountFilterTest"
+      },
+      "runTime": 103,
+      "testTimestamp": "2021-04-13T01:13:05.000+0000",
+      "fullName": "AccountFilterTest.filterAccountByDocumentNumberTest"
+    }
+  ],
+  "codecoverage": []
+}

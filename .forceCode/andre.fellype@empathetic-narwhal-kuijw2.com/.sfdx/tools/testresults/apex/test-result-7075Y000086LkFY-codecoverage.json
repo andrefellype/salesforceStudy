@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AccountFilter",
+      "apexClassOrTriggerId": "01p5Y00000HXXdgQAH",
+      "apexTestClassId": "01p5Y00000HXXp8QAH",
+      "apexTestMethodName": "filterAccountByDocumentNumberTest",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 4,
+      "percentage": "67%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          20
+        ],
+        "uncoveredLines": [
+          7,
+          15,
+          16,
+          18
+        ]
+      }
+    }
+  ]
+]

@@ -1,0 +1,198 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Apr 13 2021 18:43:36",
+    "testExecutionTimeInMs": 24,
+    "testTotalTimeInMs": 24,
+    "commandTimeInMs": 1027,
+    "hostname": "https://empathetic-narwhal-kuijw2-dev-ed.my.salesforce.com",
+    "orgId": "00D5Y000002V0QhUAK",
+    "username": "andre.fellype@empathetic-narwhal-kuijw2.com",
+    "testRunId": "7075Y000087OGdy",
+    "userId": "0055Y00000GSdRvQAL",
+    "totalLines": 24,
+    "coveredLines": 14,
+    "testRunCoverage": "58%",
+    "orgWideCoverage": "5%"
+  },
+  "tests": [
+    {
+      "id": "07M5Y000006YvmBUAS",
+      "queueItemId": "7095Y0000019uDKQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075Y000087OGdyQAG",
+      "methodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5Y00000HXeiAQAT",
+        "name": "GetAddressOubountServiceTest",
+        "namespacePrefix": null,
+        "fullName": "GetAddressOubountServiceTest"
+      },
+      "runTime": 24,
+      "testTimestamp": "2021-04-13T21:43:36.000+0000",
+      "fullName": "GetAddressOubountServiceTest.givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "GetAddressOubountService",
+          "apexClassOrTriggerId": "01p5Y00000HXeXMQA1",
+          "apexTestClassId": "01p5Y00000HXeiAQAT",
+          "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 1,
+          "percentage": "93%",
+          "coverage": {
+            "coveredLines": [
+              8,
+              9,
+              12,
+              13,
+              16,
+              17,
+              19,
+              20,
+              21,
+              23,
+              24,
+              26,
+              33,
+              34
+            ],
+            "uncoveredLines": [
+              37
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ViaCepAddressResponse",
+          "apexClassOrTriggerId": "01p5Y00000HXeX2QAL",
+          "apexTestClassId": "01p5Y00000HXeiAQAT",
+          "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ZipCodeAddress",
+          "apexClassOrTriggerId": "01p5Y00000HXehHQAT",
+          "apexTestClassId": "01p5Y00000HXeiAQAT",
+          "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 2,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              10,
+              11
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ZipCodeAddressTransformer",
+          "apexClassOrTriggerId": "01p5Y00000HXehWQAT",
+          "apexTestClassId": "01p5Y00000HXeiAQAT",
+          "apexTestMethodName": "givenZipCodeWhenCallViaCepServiceThenFailToReturnAndThrowException",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 7,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p5Y00000HXehHQAT",
+      "name": "ZipCodeAddress",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 2,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        10,
+        11
+      ]
+    },
+    {
+      "apexId": "01p5Y00000HXeXMQA1",
+      "name": "GetAddressOubountService",
+      "type": "ApexClass",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 1,
+      "percentage": "93%",
+      "coveredLines": [
+        8,
+        9,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        26,
+        33,
+        34
+      ],
+      "uncoveredLines": [
+        37
+      ]
+    },
+    {
+      "apexId": "01p5Y00000HXeX2QAL",
+      "name": "ViaCepAddressResponse",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p5Y00000HXehWQAT",
+      "name": "ZipCodeAddressTransformer",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 7,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ]
+    }
+  ]
+}

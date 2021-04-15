@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 12 2021 21:24:03",
+    "testExecutionTimeInMs": 24,
+    "testTotalTimeInMs": 24,
+    "commandTimeInMs": 1147,
+    "hostname": "https://empathetic-narwhal-kuijw2-dev-ed.my.salesforce.com",
+    "orgId": "00D5Y000002V0QhUAK",
+    "username": "andre.fellype@empathetic-narwhal-kuijw2.com",
+    "testRunId": "7075Y000086LgIF",
+    "userId": "0055Y00000GSdRvQAL",
+    "totalLines": 12,
+    "coveredLines": 8,
+    "testRunCoverage": "67%",
+    "orgWideCoverage": "3%"
+  },
+  "tests": [
+    {
+      "id": "07M5Y000006YunwUAC",
+      "queueItemId": "7095Y0000019u9pQAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075Y000086LgIFQA0",
+      "methodName": "filterAccountByDocumentNumberTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5Y00000HXXp8QAH",
+        "name": "AccountFilterTest",
+        "namespacePrefix": null,
+        "fullName": "AccountFilterTest"
+      },
+      "runTime": 24,
+      "testTimestamp": "2021-04-13T00:24:03.000+0000",
+      "fullName": "AccountFilterTest.filterAccountByDocumentNumberTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountFilter",
+          "apexClassOrTriggerId": "01p5Y00000HXXdgQAH",
+          "apexTestClassId": "01p5Y00000HXXp8QAH",
+          "apexTestMethodName": "filterAccountByDocumentNumberTest",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 4,
+          "percentage": "67%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              5,
+              6,
+              10,
+              11,
+              12,
+              20
+            ],
+            "uncoveredLines": [
+              7,
+              15,
+              16,
+              18
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p5Y00000HXXdgQAH",
+      "name": "AccountFilter",
+      "type": "ApexClass",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 4,
+      "percentage": "67%",
+      "coveredLines": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        20
+      ],
+      "uncoveredLines": [
+        7,
+        15,
+        16,
+        18
+      ]
+    }
+  ]
+}
